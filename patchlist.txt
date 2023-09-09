@@ -1,0 +1,3 @@
+dwm-autostart-20161205-bb3bd6f.diff
+dwm-fibonacci-20200418-c82db69.diff
+dwm-movestack-20211115-a786211.diff
