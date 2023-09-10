@@ -1,9 +1,6 @@
-drw.o
-dwm.o
-util.o
+*.o
 
-config.def.h.orig
-config.def.h.rej
-dwm.c.orig
+*.orig
+*.rej
 
 dwm
