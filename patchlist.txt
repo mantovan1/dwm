@@ -3,3 +3,6 @@ dwm-fibonacci-20200418-c82db69.diff
 dwm-movestack-20211115-a786211.diff
 dwm-vanitygaps-6.2.diff
 dwm-alpha-20230401-348f655.diff
+dwm-restartsig-20180523-6.2.diff
+dwm-exitmenu-6.3.diff
+dwm-pertag-20200914-61bb8b2.diff
