@@ -76,6 +76,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 
 #include "movestack.c"
+#include "exitdwm.c"
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -119,7 +120,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY, XK_p, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +2000") },
-	{ MODKEY, XK_minus, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -2000") }
+	{ MODKEY, XK_minus, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -2000") },
+	{ MODKEY|ShiftMask,             XK_e,      exitdwm,       {0} },
 };
 
 /* button definitions */
