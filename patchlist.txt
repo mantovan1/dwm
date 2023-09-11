@@ -2,3 +2,4 @@ dwm-autostart-20161205-bb3bd6f.diff
 dwm-fibonacci-20200418-c82db69.diff
 dwm-movestack-20211115-a786211.diff
 dwm-vanitygaps-6.2.diff
+dwm-alpha-20230401-348f655.diff
