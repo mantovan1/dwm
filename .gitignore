@@ -4,3 +4,4 @@
 *.rej
 
 dwm
+config.def.h
